@@ -12,10 +12,10 @@ function App() {
   return (
     <>
       <Router>
-        <div>
+        <div>          
           <Navbar />
           <Routes>
-            <Route path='/Home' element={<Home />} />
+            <Route exact path='/' element={<Home />} />
             <Route path='/About' element={<About />} />
             <Route path='/MyWork' element={<MyWork />} />
             <Route path='/Contact' element={<Contact />} />

@@ -7,12 +7,12 @@ export default function navbar() {
     <div>
       <nav className="navbar">
         <div className="container">
-          <Link to='/Home' className="navbar-logo">
+          <Link to='/' className="navbar-logo">
             MySite
           </Link>
           <ul className="navbar-menu">
             <li className="navbar-item">
-              <Link to='/Home' className="navbar-link">Home</Link>
+              <Link to='/' className="navbar-link">Home</Link>
             </li>
 
             <li className="navbar-item">
