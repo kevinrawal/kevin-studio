@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import './navbar.css';
+import Logo from "../Logos/Logo.png";
+// import Logo2 from "../Logos/House.svg"
+import './CSS/navbar.css';
 
 export default function navbar() {
   return (
@@ -8,7 +10,8 @@ export default function navbar() {
       <nav className="navbar">
         <div className="container">
           <Link to='/' className="navbar-logo">
-            MySite
+              {/* MyLogo */}
+              <img src={Logo} alt="Logo" height={40} />
           </Link>
           <ul className="navbar-menu">
             <li className="navbar-item">
